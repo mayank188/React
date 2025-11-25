@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+
+   
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  border: 1px solid rgb(52, 23, 23);
+  background-color: azure;
+  margin: 20px;
+  padding: 20px;
+}
+.bar{
+  height: 50px;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+.but{
+  height: 200px;
+  width: 200px;
+  color: rgb(255, 0, 0);
+  
+}
