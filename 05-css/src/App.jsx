@@ -1,11 +1,14 @@
 import React from 'react'
-import Main from './components/main'
+import Button from './components/button/button'
+import Header from './components/header/header'
+
 
 const App = () => {
   return (
-    <div>
-      <Main/>
-    </div>
+    <>
+      <Button/>
+      <Header/>
+    </>
   )
 }
 
