@@ -46,3 +46,10 @@ input{
   background-color: rgb(0, 240, 112);
 
 }
+
+button{
+
+  gap: 100px;
+  padding: 100px;
+}
+

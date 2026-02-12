@@ -33,7 +33,8 @@ body{
 .card img{
   height: 100px;
   width: 100px;
-  border-radius: 50%;
+  border-radius:50%;
+  object-fit: cover;
 }
 .card p{
 margin: 20px 0;

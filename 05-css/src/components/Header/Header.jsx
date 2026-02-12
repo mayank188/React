@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className={styles.Head}>
         <h3>Mayank</h3>
-        <button className={styles.btn} >
+        <button  >
             Login
         </button >
     </div>

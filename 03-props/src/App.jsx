@@ -9,6 +9,7 @@ const App = () => {
      <Card user = 'spideman' age = {36} img='https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1763569499' />
      <Card user='me'/>
      <Card user = 'john wick' age = {56} img='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW7JTf4MMvcS8bsdBoO58D0NN842xCQ45Oig&s' />
+     <Card user = 'iron man' age = {45} img='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW7JTf4MMvcS8bsdBoO58D0NN842xCQ45Oig&s' />
      
      
     </div>

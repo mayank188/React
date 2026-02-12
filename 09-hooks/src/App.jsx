@@ -1,24 +1,34 @@
 import React, { useState } from 'react'
 
 const App = () => {
-  // const [num, setnum] = useState({name:
-  //   'John', age: 30
-  // })
 
-  const [nums, setnums] = useState([10,20,30,40,50]);
 
-  function changeed(){
-    const newnum = [...nums];
-    newnum.push(60);
-    setnums(newnum);
-    
-    
-   
+  const [num, setnum] = useState(0)
+  const inc = ()=>{
+      setnum(num+1)
+      setnum(num+1)
+      setnum(num+1)
+  }
+  const dec = ()=>{
+    setnum(num-1)
+  }
+
+  // const newfuntion = ()=>{
+  //   alert("You click the increase button")
+  // }
+  const tozero =()=>{
+    setnum(0)
   }
   return (
     <div>
-      <h1>{nums}</h1>
-      <button  onClick={changeed}>Click Me</button>
+      <div className="main">
+        <h1>{num}</h1>
+        <div className="button-container">
+          <button onClick={inc}>Increase</button>
+          <button onClick={dec}>Decrease</button>
+          <button onClick={tozero} >Reset</button>
+        </div>
+      </div>
     </div>
   )
 }

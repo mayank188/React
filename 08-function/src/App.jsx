@@ -1,21 +1,38 @@
 import React from 'react'
 
 const App = () => {
-function handleWheel(event){
-  console.log("Soeed is ",event.deltaY)
-}
-  return (
+  function btnclick() {
+    alert('Button Clicked')
+  }
+  function mouseoverdd() {
+    alert('Mouse Over')
+  } 
+  const pagescroll = () => {
+    console.log("Page is scolrrling");
+    function random(){
+      console.log("Random button clicked");
+    }
     
+  }
+  return (
     <div onWheel={(elem)=>{
-      handleWheel(elem)
+      console.log(elem.deltaY)
     }}>
-      {/* <div onMouseMove={(elem)=>{
-        console.log(elem.clientX)
-      }} className='box'></div> */}
+      {/* <button onMouseOver={mouseoverdd} onClick={btnclick} >
+        Click me
+      </button>
+      <button onClick={function(){
+        alert("Hello this is me !!!!!!!")
+      }} >Dont click me !!</button> */}
 
-      <div className="page1"></div>
-      <div className="page2"></div>
-      <div className="page3"></div>
+      {/* <div className="box"></div>
+       */}
+       {/* <div className="page1"></div>
+       <div className="page2"></div>
+       <div className="page3"></div> */}
+hello
+
+       <button onClick={random} > Don</button>
     </div>
   )
 }

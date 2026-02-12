@@ -2,6 +2,9 @@ import React from 'react'
 import Card from './component/card'
 import Navbar from './component/navbar'
 import Button from './component/button'
+import Back from './component/backgroundbutton'
+import Image from './component/image'
+
 
 
 
@@ -15,10 +18,14 @@ const App = () => {
       <Card />
       <Card />
       <Card />
+      <Card />
       <Button/>
       <Button/>
       <Button/>
-    
+      <Button/>
+     <Back/>
+     <Image/>
+     <Image/>    
     </div>
   )
 }
